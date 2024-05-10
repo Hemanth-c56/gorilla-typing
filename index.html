@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorillatype</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="favicon(2).ico">
+</head>
+<body>
+    <div class="body">
+        <div class="contentwrapper">
+            <header class="header">
+                <div class="title-icon" id="icon-restart">
+                    <div class="icon"><img src="gorillaicon.png" alt=""></div>
+                    <div class="title">gorillatype</div>
+                    <div><img class="keyboard" src="keyboard.png" alt=""></div>
+                </div>
+                <div style="display: none;" class="bell-icon"><img class="bell-img" src="bell.png" alt=""></div>
+            </header>
+            <div class="controls">
+                <div class="msg" id="msg"></div>
+            </div>
+            <div class="game" id="game" tabindex="0">
+                <div class="timer" id="timer">30</div>
+                <div class="words-wrapper">
+                    <div class="words" id="words" tabindex="0">
+                        <div id="cursor">
+                    </div>
+                </div>
+                </div>
+                <div id="focus-error"><img class="cursorimg" src="cursor.png" alt=""> click here to start</div>
+            </div>
+            <div class="restart-div" id="restart"><img class="restart-img" src="restart.png" alt=""></div>
+            <div class="result" id="result">
+                <div class="wpmdiv" id="wpmdiv">
+                    <div class="wpm" id="wpm"></div>
+                    <div class="wpmmsg" id="wpmmsg">WPM</div>
+                </div>
+                <div class="accdiv" id="accdiv">
+                    <div class="acc" id="acc"></div>
+                    <div class="accmsg" id="accmsg">ACCURACY</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
